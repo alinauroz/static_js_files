@@ -1,6 +1,7 @@
 let time = 1000;
 
 $("document").ready(function() {
+    console.log("Hello World 998")
     bar = $(".progressbar");
     for (i = 0; i < bar.length; i++) {
         let val = bar[i].getAttribute('val');
