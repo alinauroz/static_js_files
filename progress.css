@@ -1,0 +1,60 @@
+body {
+    font-family: 'segoe ui', sans-serif;
+}
+
+.progressbar {
+    width : 300px;
+    height : 25px;
+    background-color: black;
+    padding-right: 5px;
+    margin-top : 5px;
+    margin-bottom : 25px;
+}
+
+.thumb {
+    width : 0px;
+    height : 25px;
+    background-color: red;
+    color : white;
+    padding-left: 5px;
+    overflow : hidden;
+}
+
+dgbox {
+    width : 100%;
+    display: block;
+}
+.dg-con {
+    display : inline-block;
+    padding : 20px;
+    vertical-align: top;
+}
+
+.dg-title {
+    font-weight: bold;
+    text-align: center;
+}
+.dg-label {
+    font-weight: bold;
+    margin : 0px;
+}
+.bg-text {
+    background-color: black;
+    color: white;
+    margin : 0px;
+    font-size: 16px;
+    padding : 5px;
+}
+.text {
+    line-height: 25px;
+    max-width: 400px;
+}
+
+@media screen and (max-width:800px) {
+    .dgcon {
+      display: block;
+    }
+    .circle-con {
+        text-align: center;
+    }
+  }
